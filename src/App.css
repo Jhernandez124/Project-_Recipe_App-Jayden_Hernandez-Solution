@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Montserrat:wght@400;700&display=swap');
+
+.App {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+
+header h1 {
+  text-align: center;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 64px;
+}
+/* typography */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+thead th, tfoot th {
+    font-family: 'Montserrat', sans-serif;
+}
+
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(odd){
+  background-color: #DAE0E7;
+}
+th{
+  background-color: whitesmoke;
+}
+
+td img{
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+/* Column Size for thead */
+th:nth-child(4){
+  width: 30%;
+}
+th:nth-child(5){
+  width: 30%;
+}
+th:nth-child(1){
+  width: 10%;
+}
+th:nth-child(2){ 
+  width: 10%;
+}
+th:nth-child(3){
+  width: 10%;
+}
+th:nth-child(6){
+  width: 10%;
+}
+/* Column size for tbody */
+tbody:nth-child(4){
+  width: 30%;
+}
+tbody:nth-child(5){
+  width: 30%;
+}
+
+tbody:nth-child(1){
+  width: 10%;
+}
+tbody:nth-child(2){
+  width: 10%;
+}
+tbody:nth-child(3){
+  width: 10%;
+}
+tbody:nth-child(6){
+  width: 10%;
+}
+
+input{
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+textarea {
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    justify-content: center;
+
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20%;
+    font-size: 20px   
+}
+.form:hover{
+    background-color: rgb(155, 230, 106);
+  }
+
+.table{
+    background-color:#D2042D ;
+    color: white
+}
+.table:hover{
+    background-color:#a14659 ;
+}
